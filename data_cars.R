@@ -11,3 +11,13 @@ for (i in 1:n){
 }
 
 hist(mtcars$mpg)
+boxplot(mtcars$mpg)
+pie(mtcars$mpg)
+plot(mtcars$mpg)
+hasil <- data.frame(
+  mobil = rownames(mtcars),
+  mpg = mtcars$mpg,
+  status = status
+)
+
+hasil
